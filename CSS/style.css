@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  background-color: antiquewhite;
+  height: 10vh;
+  text-align: center; }
+  .header h1 {
+    font-weight: 800;
+    color: royalblue; }
+
+.main-index {
+  background-color: bisque;
+  text-align: center;
+  min-height: 50vh; }
+  .main-index .card {
+    max-width: 350px;
+    margin: 0 auto; }
+    .main-index .card h2 {
+      font-family: 'Courier New', Courier, monospace; }
+
+@media (min-width: 550px) {
+  .main-index {
+    flex-direction: row; }
+    .main-index .card h2 {
+      background-color: palevioletred; } }
+
+footer p {
+  font-weight: 300;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: azure; }
