@@ -1,17 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 .header {
-    background-color: antiquewhite;
-    height: 10vh;
-    text-align: center;
-
-    h1 {
-        font-weight: 800;
-        color: royalblue;
+    font-weight: 500;
+    font-size: 15px;
+    z-index: 20;
+    .navbar-brand {
+        padding-left: 56px;
+        img {
+            width: 40px;
+            height: 40.89px;
+          }
     }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        align-items: flex-end;
+      }
+
 }

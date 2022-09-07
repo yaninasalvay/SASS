@@ -1,0 +1,138 @@
+.tituloSobreNosotros {
+    position: absolute;
+    top: 140px;
+    left: 56px;
+    .tituloAmarillo {
+      font-weight: 700;
+      color: #ffd803;
+    }
+  }
+  .blob {
+    position: relative;
+    left: 516px;
+    top: 180px;
+    z-index: -2;
+    object-fit: cover;
+    vertical-align: middle;
+  }
+  
+  .blobDos {
+    position: absolute;
+    left: 0px;
+    top: 1836px;
+    z-index: -2;
+  }
+  .positionContenedorRight {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    .contenedor {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        width: 660px;
+        top: 300px;
+        padding: 40px;
+        background: #ffffff;
+        border-radius: 25px;
+        justify-content: space-between;
+        align-content: space-around;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+      }
+      .contenedorTres {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        width: 660px;
+        top: 644px;
+        padding: 40px;
+        background: #ffffff;
+        border-radius: 25px;
+        justify-content: space-between;
+        align-content: space-around;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+      }
+      .contenedorCinco {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+        width: 660px;
+        top: 1027px;
+        padding: 40px;
+        background: #ffffff;
+        border-radius: 25px;
+        justify-content: space-between;
+        align-content: space-around;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+      }
+}
+.positionContenedorLeft {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    .contenedorDos {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 613px;
+        top: 476px;
+        padding: 40px;
+        background: #ffffff;
+        border-radius: 25px;
+        justify-content: space-between;
+        align-content: space-around;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+      }
+      .contenedorCuatro {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 613px;
+        top: 829px;
+        padding: 40px;
+        background: #ffffff;
+        border-radius: 25px;
+        justify-content: space-between;
+        align-content: space-around;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+      }
+      .contenedorSeis {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 613px;
+        top: 1171px;
+        padding: 40px;
+        background: #ffffff;
+        border-radius: 25px;
+        justify-content: space-between;
+        align-content: space-around;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+      }
+  }

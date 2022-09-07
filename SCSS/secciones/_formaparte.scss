@@ -1,0 +1,59 @@
+.gridContainerAyudar {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 550px 100px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header"
+    "ayudar"
+    "footer";
+  .header {
+    grid-area: header;
+  }
+  .ayudar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "text formulario";
+    grid-area: ayudar;
+    justify-items: center;
+    align-items: center;
+    .textFormaParte {
+      grid-area: textFormaParte;
+      display: flex;
+      grid-area: text;
+      flex-flow: column;
+      height: 423px;
+      flex-direction: column;
+      align-items: center;
+      width: 594px;
+      padding: 40px;
+      text-align: center;
+      justify-content: space-around;
+      .tituloAmarillo {
+        font-weight: 700;
+        color: #ffd803;
+      }
+    }
+    .formulario {
+      grid-area: formulario;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-around;
+      flex-wrap: nowrap;
+      width: 480px;
+      flex-direction: column;
+
+      .formularioStyle {
+        display: flex;
+        flex-flow: column;
+      }
+    }
+  }
+  .footer {
+    grid-area: footer;
+  }
+}

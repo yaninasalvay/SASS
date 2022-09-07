@@ -1,0 +1,52 @@
+.gridContainerContacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 550px 100px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header"
+    "contacto"
+    "footer";
+  .header {
+    grid-area: header;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "text form";
+    grid-area: contacto;
+    .textContacto {
+      text-align: center;
+      grid-area: text;
+      display: flex;
+      height: 550px;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px;
+      .tituloAmarillo {
+        font-weight: 700;
+        color: #ffd803;
+      }
+    }
+    .form {
+      grid-area: form;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+      align-items: stretch;
+      padding: 40px;
+    }
+  }
+
+.footer {
+  grid-area: footer;
+}
+}

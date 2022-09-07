@@ -1,0 +1,85 @@
+.gridContainerDonaciones {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 550px 100px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header"
+    "donation"
+    "footer";
+  .header {
+    grid-area: header;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .donation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "text information";
+    grid-area: donation;
+    align-items: center;
+    justify-items: center;
+    .textDonaciones {
+      text-align: center;
+      grid-area: text;
+      display: flex;
+      height: 550px;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px;
+      h2 .tituloAmarillo {
+        font-weight: 700;
+        color: #ffd803;
+      }
+    }
+    p .botonDonacion {
+      font-size: 20px;
+      line-height: 25px;
+      padding: 12px 22px;
+      gap: 10px;
+      background: #ffffff;
+      border: 3px solid #ffd803;
+      border-radius: 30px;
+      &hover {
+        background-color: #ffd803;
+        transition: 0.3s;
+      }
+    }
+    p .botonContacto {
+      width: 163px;
+      height: 55px;
+      padding: 12px 20px;
+      gap: 10px;
+      font-size: 20px;
+      line-height: 25px;
+      align-items: center;
+      text-align: center;
+      background: #ffffff;
+      border: 3px solid #ffd803;
+      border-radius: 30px;
+      margin: 20px;
+      &hover {
+        background-color: #ffd803;
+        transition: 0.3s;
+      }
+    }
+  }
+  .information {
+    grid-area: information;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 23px;
+    margin: 30px;
+    width: 476px;
+    background: white;
+    height: 468px;
+    align-items: center;
+    border: 3px dashed #ffd803;
+    border-radius: 30px;
+  }
+}
