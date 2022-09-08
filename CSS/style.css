@@ -1,3 +1,8 @@
+body {
+  background-color: #f8f8f8 !important;
+  font-family: "mulish";
+  color: black; }
+
 .header {
   font-weight: 500;
   font-size: 15px;
@@ -24,17 +29,15 @@
 h2 {
   font-style: normal !important;
   font-weight: 600 !important;
-  font-size: 54.1799px !important;
+  font-size: 54.18px !important;
   line-height: 68px !important;
-  align-items: center !important; }
+  align-items: center !important;
+  font-family: "mulish"; }
 
 h3 {
   font-weight: 700 !important;
   font-size: 40px !important;
   line-height: 50px !important; }
-
-body {
-  background-color: #f8f8f8 !important; }
 
 ul {
   list-style-type: none; }
@@ -106,7 +109,7 @@ a {
       border-radius: 30px;
       z-index: 3; }
       .gridContainerIndex .section1 .botonDonarhover {
-        border: 2px solid #000000;
+        border: 2px solid black;
         transition: 0.3s; }
   .gridContainerIndex .section2 {
     display: grid;
@@ -159,7 +162,7 @@ a {
           width: 152px;
           justify-content: center;
           align-items: center;
-          background: #ffffff;
+          background: white;
           border: 3.38624px solid #ffd803;
           border-radius: 31.164px; }
           .gridContainerIndex .section2 .section2Text .botonesAdopcion .botonGatitohover {
@@ -180,7 +183,7 @@ a {
           width: 150px;
           justify-content: center;
           align-items: center;
-          background: #ffffff;
+          background: white;
           border: 3.38624px solid #ffd803;
           border-radius: 31.164px; }
           .gridContainerIndex .section2 .section2Text .botonesAdopcion .botonPerritohover {
@@ -206,7 +209,7 @@ a {
           width: 150px;
           justify-content: center;
           align-items: center;
-          background: #ffffff;
+          background: white;
           border: 3.38624px solid #ffd803;
           border-radius: 31.164px; }
           .gridContainerIndex .section2 .section2Text .botonesAdopcion .verTodoshover {
@@ -255,7 +258,7 @@ a {
         border: 3.386px solid #ffd803;
         border-radius: 47.164px;
         margin-right: 56px;
-        background: #ffffff; }
+        background: white; }
         .gridContainerIndex .section3 .section3Text .botonDonarPatitahover {
           background-color: #ffd803;
           transition: 0.3s; }
@@ -294,12 +297,6 @@ a {
           font-weight: 700;
           color: #ffd803; }
 
-@media (min-width: 550px) {
-  .main-index {
-    flex-direction: row; }
-    .main-index .card h2 {
-      background-color: palevioletred; } }
-
 .tituloSobreNosotros {
   position: absolute;
   top: 140px;
@@ -336,7 +333,7 @@ a {
     width: 660px;
     top: 300px;
     padding: 40px;
-    background: #ffffff;
+    background: white;
     border-radius: 25px;
     justify-content: space-between;
     align-content: space-around;
@@ -352,7 +349,7 @@ a {
     width: 660px;
     top: 644px;
     padding: 40px;
-    background: #ffffff;
+    background: white;
     border-radius: 25px;
     justify-content: space-between;
     align-content: space-around;
@@ -368,7 +365,7 @@ a {
     width: 660px;
     top: 1027px;
     padding: 40px;
-    background: #ffffff;
+    background: white;
     border-radius: 25px;
     justify-content: space-between;
     align-content: space-around;
@@ -390,7 +387,7 @@ a {
     width: 613px;
     top: 476px;
     padding: 40px;
-    background: #ffffff;
+    background: white;
     border-radius: 25px;
     justify-content: space-between;
     align-content: space-around;
@@ -406,7 +403,7 @@ a {
     width: 613px;
     top: 829px;
     padding: 40px;
-    background: #ffffff;
+    background: white;
     border-radius: 25px;
     justify-content: space-between;
     align-content: space-around;
@@ -422,7 +419,7 @@ a {
     width: 613px;
     top: 1171px;
     padding: 40px;
-    background: #ffffff;
+    background: white;
     border-radius: 25px;
     justify-content: space-between;
     align-content: space-around;
@@ -653,7 +650,7 @@ a {
       line-height: 25px;
       padding: 12px 22px;
       gap: 10px;
-      background: #ffffff;
+      background: white;
       border: 3px solid #ffd803;
       border-radius: 30px; }
       .gridContainerDonaciones .donation p .botonDonacionhover {
@@ -668,7 +665,7 @@ a {
       line-height: 25px;
       align-items: center;
       text-align: center;
-      background: #ffffff;
+      background: white;
       border: 3px solid #ffd803;
       border-radius: 30px;
       margin: 20px; }
@@ -839,7 +836,7 @@ a {
     grid-template-rows: 0px 820px 820px 820px 820px 100px;
     grid-template-areas: "header" "section1" "section2" "section3" "section4" "footer"; }
     .gridContainerIndex .section1 .tituloNegro {
-      color: #ffffff;
+      color: white;
       left: 2rem;
       right: 2rem; }
     .gridContainerIndex .section2 {
@@ -863,7 +860,7 @@ a {
         align-items: flex-start;
         justify-content: flex-end; }
         .gridContainerIndex .section2 .section2Text .segundoHeader {
-          color: #ffffff;
+          color: white;
           left: -2rem;
           right: 2rem; }
         .gridContainerIndex .section2 .section2Text .botonesAdopcion {
@@ -891,7 +888,7 @@ a {
         align-items: flex-end;
         justify-content: center; }
         .gridContainerIndex .section3 .section3Text .tercerHeader {
-          color: #ffffff;
+          color: white;
           margin-right: 2rem;
           margin-left: 2rem; }
         .gridContainerIndex .section3 .section3Text .botonDonarPatita {
@@ -920,7 +917,7 @@ a {
         justify-content: flex-end;
         left: 56px; }
         .gridContainerIndex .section4 .section4Text .cuartoHeader {
-          color: #ffffff;
+          color: white;
           left: -2rem;
           right: 2rem; }
     .gridContainerIndex .footer {

@@ -1,3 +1,9 @@
+//Variables
+
+@import "./variables/colores";
+@import "./variables/typo";
+@import "./variables/extend";
+
 //importar las secciones al main para vincularlas y SIEMPRE con _
 
 @import "./secciones/header";

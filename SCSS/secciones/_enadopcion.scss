@@ -23,7 +23,7 @@
     z-index: 2;
     .tituloAmarillo {
       font-weight: 700;
-      color: #ffd803;
+      color: $amarillo;
     }
   }
 }
@@ -75,11 +75,11 @@
     width: 127px;
     height: 47px;
     padding: 8.46561px 25.3968px;
-    border: 3.38624px solid #ffd803;
-    background: #f8f8f8;
+    border: 3.38624px solid $amarillo;
+    background: $gris;
     border-radius: 25px;
     &hover {
-      background: #ffd803;
+      background: $amarillo;
       transition: 0.3s;
     }
   }
@@ -98,7 +98,7 @@
     align-content: space-between;
     justify-content: space-between;
     padding: 25px;
-    background: #ffd803;
+    background: $amarillo;
     border-radius: 30px;
     margin: 20px;
     align-items: stretch;

@@ -2,7 +2,7 @@
 
 .footer {
     grid-area: footer;
-    background-color: #ffd803;
+    background-color: $amarillo;
     position: relative;
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@
 
 .footerSobreNosotros {
     grid-area: footer;
-    background-color: #ffd803;
+    background-color: $amarillo;
     position: relative;
     display: flex;
     align-items: flex-start;
@@ -26,7 +26,7 @@
   // EN ADOPCION
 
   .footerAdopcion {
-    background-color: #ffd803;
+    background-color: $amarillo;
     position: relative;
     display: flex;
     align-items: center;
@@ -39,7 +39,7 @@
 
   .footer {
     grid-area: footer;
-    background-color: #ffd803;
+    background-color: $amarillo;
     position: relative;
     display: flex;
     align-items: center;

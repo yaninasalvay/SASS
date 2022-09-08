@@ -1,0 +1,17 @@
+//EXTEND
+
+%estiloPrincipal {
+    background-color: $gris !important;
+    font-family: $tipografiaPrincipal;
+    color: $negro;
+}
+
+//MIXIN
+@mixin estiloH2 ($size) {
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: $size !important;
+    line-height: 68px !important;
+    align-items: center !important;
+    font-family: $tipografiaPrincipal;
+}

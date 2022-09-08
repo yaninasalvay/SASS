@@ -33,7 +33,7 @@
       padding: 30px;
       h2 .tituloAmarillo {
         font-weight: 700;
-        color: #ffd803;
+        color: $amarillo;
       }
     }
     p .botonDonacion {
@@ -41,11 +41,11 @@
       line-height: 25px;
       padding: 12px 22px;
       gap: 10px;
-      background: #ffffff;
-      border: 3px solid #ffd803;
+      background: $blanco;
+      border: 3px solid $amarillo;
       border-radius: 30px;
       &hover {
-        background-color: #ffd803;
+        background-color: $amarillo;
         transition: 0.3s;
       }
     }
@@ -58,12 +58,12 @@
       line-height: 25px;
       align-items: center;
       text-align: center;
-      background: #ffffff;
-      border: 3px solid #ffd803;
+      background: $blanco;
+      border: 3px solid $amarillo;
       border-radius: 30px;
       margin: 20px;
       &hover {
-        background-color: #ffd803;
+        background-color: $amarillo;
         transition: 0.3s;
       }
     }
@@ -76,10 +76,10 @@
     padding: 23px;
     margin: 30px;
     width: 476px;
-    background: white;
+    background: $blanco;
     height: 468px;
     align-items: center;
-    border: 3px dashed #ffd803;
+    border: 3px dashed $amarillo;
     border-radius: 30px;
   }
 }

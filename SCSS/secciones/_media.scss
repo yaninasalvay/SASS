@@ -35,16 +35,16 @@
         padding: 35px;
         margin: 0px 30px 30px 30px;
         width: 472px;
-        background: white;
+        background: $blanco;
         height: 478px;
         align-items: center;
-        border: 3px dashed #ffd803;
+        border: 3px dashed $amarillo;
         border-radius: 30px;
       }
     }
     .footer {
       grid-area: footer;
-      background-color: #ffd803;
+      background-color: $amarillo;
       position: relative;
       display: flex;
       align-items: center;
@@ -54,7 +54,7 @@
   }
   .footer {
     grid-area: footer;
-    background-color: #ffd803;
+    background-color: $amarillo;
     position: relative;
     display: flex;
     align-items: center;
@@ -141,7 +141,7 @@
       "footer";
     .section1 {
       .tituloNegro {
-        color: #ffffff;
+        color: $blanco;
         left: 2rem;
         right: 2rem;
       }
@@ -168,7 +168,7 @@
         align-items: flex-start;
         justify-content: flex-end;
         .segundoHeader {
-          color: #ffffff;
+          color: $blanco;
           left: -2rem;
           right: 2rem;
         }
@@ -201,7 +201,7 @@
         align-items: flex-end;
         justify-content: center;
         .tercerHeader {
-          color: #ffffff;
+          color: $blanco;
           margin-right: 2rem;
           margin-left: 2rem;
         }
@@ -235,7 +235,7 @@
         justify-content: flex-end;
         left: 56px;
         .cuartoHeader {
-          color: #ffffff;
+          color: $blanco;
           left: -2rem;
           right: 2rem;
         }
@@ -243,7 +243,7 @@
     }
     .footer {
       grid-area: footer;
-      background-color: #ffd803;
+      background-color: $amarillo;
       position: relative;
       display: flex;
       align-items: center;
@@ -304,10 +304,10 @@
           padding: 35px;
           margin: 0px 30px 30px 30px;
           width: 472px;
-          background: white;
+          background: $blanco;
           height: 478px;
           align-items: center;
-          border: 3px dashed #ffd803;
+          border: 3px dashed $amarillo;
           border-radius: 30px;
         }
       }
