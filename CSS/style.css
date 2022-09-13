@@ -767,7 +767,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 2rem; }
+    padding: 2rem;
+    top: 86px; }
   .gridContainerAyudar {
     display: grid;
     grid-template-columns: 100vw;
