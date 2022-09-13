@@ -36,17 +36,23 @@
         color: $amarillo;
       }
     }
-    .form {
-      grid-area: form;
+    div {
+      .form {
+        grid-area: form;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: stretch;
+        padding: 50px;
+      }
+    }
+    .botonesContacto {
       display: flex;
-      flex-flow: column;
-      justify-content: space-around;
-      align-items: stretch;
-      padding: 40px;
+      flex-flow: row;
+    }
+
+    .footer {
+      grid-area: footer;
     }
   }
-
-.footer {
-  grid-area: footer;
-}
 }

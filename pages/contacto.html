@@ -123,24 +123,34 @@
           <h2>¿Tenés <span class="tituloAmarillo">dudas</span>?</h2>
           <h2>Charlá con nosotros.</h2>
         </div>
-        <div class="form">
+
+
+        <div >
           <form action="#" method="get" class="form">
             <input
               type="text"
               placeholder="Nombre y Apellido"
               name="Nombre"
-              required
+              required class="border" style="padding: 0.5rem;
+              border: 3px solid #ffd803 !important;
+              border-radius: 30px; margin: 0.5rem !important; "
             />
-            <input type="email" placeholder="Email" name="Email" required />
+            <input type="email" placeholder="Email" name="Email" required style="padding: 0.5rem;
+            border: 3px solid #ffd803 !important;
+            border-radius: 30px; margin: 0.5rem !important;"/>
             <input
               type="text"
               placeholder="Teléfono de Contacto"
               name="Telefono"
-              required
+              required style="padding: 0.5rem;
+              border: 3px solid #ffd803 !important;
+              border-radius: 30px; margin: 0.5rem !important;"
             />
       
             <!-- menu desplegable (solo para formulario) -->
-            <select name="Consulta">
+            <select name="Consulta" style="padding: 0.5rem;
+            border: 3px solid #ffd803 !important;
+            border-radius: 30px; margin: 0.5rem !important;">
               <option value="-">Seleccioná tu consulta</option>
               <option value="Dudas">Preguntas sobre adopción</option>
               <option value="estado">En qué estado está mi formulario</option>
@@ -155,12 +165,21 @@
             <textarea
               name="Comentario"
               cols="39"
-              rows="10"
-              placeholder="Comentario"
+              rows="5"
+              placeholder="Comentario" style="padding: 0.5rem;
+              border: 3px solid #ffd803 !important;
+              border-radius: 30px; margin: 0.5rem !important;"
             ></textarea>
             <!-- Enviar -->
-            <input type="submit" value="Enviar" />
-            <input type="reset" value="Borrar" />
+            <div class="botonesContacto">
+              <input type="submit" value="Enviar" style="padding: 0.5rem 1rem 0.5rem 1rem;
+              border: 3px solid #ffd803 !important;
+              border-radius: 30px; margin: 0.5rem !important; background-color: #ffffff;"/>
+              <input type="reset" value="Borrar" style="padding: 0.5rem 1rem 0.5rem 1rem;
+              border: 3px solid #ffd803 !important;
+              border-radius: 30px; margin: 0.5rem !important; background-color: #ffffff;"/>
+            </div>
+        
           </form>
         </div>
       </div>

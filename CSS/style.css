@@ -228,7 +228,7 @@ a {
     .gridContainerIndex .section3 .section3Img {
       grid-area: section3Img;
       background-color: #f8f8f8; }
-      .gridContainerIndex .section3 .section3Img .section3Img img {
+      .gridContainerIndex .section3 .section3Img img {
         width: 100%;
         height: 820px;
         object-fit: cover;
@@ -304,20 +304,6 @@ a {
   .tituloSobreNosotros .tituloAmarillo {
     font-weight: 700;
     color: #ffd803; }
-
-.blob {
-  position: relative;
-  left: 516px;
-  top: 180px;
-  z-index: -2;
-  object-fit: cover;
-  vertical-align: middle; }
-
-.blobDos {
-  position: absolute;
-  left: 0px;
-  top: 1836px;
-  z-index: -2; }
 
 .positionContenedorRight {
   display: flex;
@@ -603,15 +589,18 @@ a {
       .gridContainerContacto .contacto .textContacto .tituloAmarillo {
         font-weight: 700;
         color: #ffd803; }
-    .gridContainerContacto .contacto .form {
+    .gridContainerContacto .contacto div .form {
       grid-area: form;
       display: flex;
       flex-flow: column;
       justify-content: space-around;
       align-items: stretch;
-      padding: 40px; }
-  .gridContainerContacto .footer {
-    grid-area: footer; }
+      padding: 50px; }
+    .gridContainerContacto .contacto .botonesContacto {
+      display: flex;
+      flex-flow: row; }
+    .gridContainerContacto .contacto .footer {
+      grid-area: footer; }
 
 .gridContainerDonaciones {
   display: grid;
@@ -692,7 +681,8 @@ a {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  height: 150px; }
 
 .footerSobreNosotros {
   grid-area: footer;
@@ -721,19 +711,20 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 2rem; }
+  padding: 2rem;
+  height: 150px; }
 
 @media (max-width: 1000px) {
   .gridContainerDonaciones {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100vw;
     grid-template-rows: 100px 1072px 100px;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas: "header" "donation" "footer"; }
     .gridContainerDonaciones .donation {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 100vw;
       grid-template-rows: 1fr;
       grid-template-areas: "text" "information";
       grid-area: donation;
@@ -779,14 +770,14 @@ a {
     padding: 2rem; }
   .gridContainerAyudar {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100vw;
     grid-template-rows: 100px 830px 100px;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas: "header" "ayudar" "footer"; }
     .gridContainerAyudar .ayudar {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 100vw;
       grid-template-rows: 1fr;
       gap: 0px 0px;
       grid-template-areas: "text" "formulario";
@@ -795,14 +786,14 @@ a {
       align-items: center; }
   .gridContainerContacto {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100vw;
     grid-template-rows: 100px 913px 100px;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas: "header" "contacto" "footer"; }
     .gridContainerContacto .contacto {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 100vw;
       grid-template-rows: 1fr;
       gap: 0px 0px;
       grid-template-areas: "text" "form";
@@ -824,7 +815,7 @@ a {
 @media (max-width: 768px) {
   .donation {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100vw;
     grid-template-rows: 1fr;
     grid-template-areas: "text" "information";
     grid-area: donation;
@@ -832,7 +823,7 @@ a {
     justify-items: center; }
   .gridContainerIndex {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100vw;
     grid-template-rows: 0px 820px 820px 820px 820px 100px;
     grid-template-areas: "header" "section1" "section2" "section3" "section4" "footer"; }
     .gridContainerIndex .section1 .tituloNegro {
@@ -927,7 +918,8 @@ a {
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      padding: 2rem; } }
+      padding-top: 5rem;
+      padding-bottom: 4rem; } }
 
 @media (max-width: 700px) {
   .gridContainerDonaciones {
@@ -976,4 +968,64 @@ a {
         height: 478px;
         align-items: center;
         border: 3px dashed #ffd803;
-        border-radius: 30px; } }
+        border-radius: 30px; }
+  .gridContainerAyudar .ayudar .textFormaParte {
+    display: flex;
+    grid-area: text;
+    flex-flow: column;
+    height: 423px;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 40px;
+    text-align: center;
+    justify-content: space-around; }
+  .gridContainerAyudar .ayudar .formulario {
+    grid-area: formulario;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: auto;
+    flex-direction: column; }
+  .gridContainerDonaciones .donation .textDonaciones {
+    text-align: center;
+    grid-area: text;
+    display: flex;
+    height: 705px;
+    width: auto;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 62px; }
+  .gridContainerDonaciones .donation .information {
+    grid-area: information;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 35px;
+    margin: 0px 30px 30px 30px;
+    width: auto;
+    background: white;
+    height: 478px;
+    align-items: center;
+    border: 3px dashed #ffd803;
+    border-radius: 30px; }
+  .gridContainerContacto .contacto .textContacto {
+    text-align: center;
+    grid-area: text;
+    display: flex;
+    height: 358px;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    width: auto; }
+  .gridContainerContacto .contacto div .form {
+    grid-area: form;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 0rem 0rem 2rem 0rem;
+    width: auto; } }
