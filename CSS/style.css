@@ -714,6 +714,15 @@ a {
   padding: 2rem;
   height: 150px; }
 
+.footerAyudar {
+  grid-area: footer;
+  background-color: #ffd803;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem; }
+
 @media (max-width: 1000px) {
   .gridContainerDonaciones {
     display: grid;
@@ -760,15 +769,6 @@ a {
       align-items: center;
       justify-content: flex-start;
       padding: 2rem; }
-  .footer {
-    grid-area: footer;
-    background-color: #ffd803;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 2rem;
-    top: 86px; }
   .gridContainerAyudar {
     display: grid;
     grid-template-columns: 100vw;
@@ -785,6 +785,15 @@ a {
       grid-area: ayudar;
       justify-items: center;
       align-items: center; }
+    .gridContainerAyudar .footerAyudar {
+      grid-area: footer;
+      background-color: #ffd803;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 5rem 0rem 4rem 0rem;
+      top: 86px; }
   .gridContainerContacto {
     display: grid;
     grid-template-columns: 100vw;

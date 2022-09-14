@@ -52,17 +52,9 @@
       padding: 2rem;
     }
   }
-  .footer {
-    grid-area: footer;
-    background-color: $amarillo;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 2rem;
-      top: 86px;
-  }
-  
+
+
+
   .gridContainerAyudar {
     display: grid;
     grid-template-columns: 100vw;
@@ -82,6 +74,16 @@
       grid-area: ayudar;
       justify-items: center;
       align-items: center;
+    }
+    .footerAyudar {
+      grid-area: footer;
+      background-color: #ffd803;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 5rem 0rem 4rem 0rem;
+      top: 86px;
     }
   }
   .gridContainerContacto {

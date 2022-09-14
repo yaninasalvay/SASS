@@ -48,3 +48,13 @@
     padding: 2rem;
     height: 150px;
   }
+
+  .footerAyudar {
+    grid-area: footer;
+    background-color: $amarillo;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem;
+  }
