@@ -51,10 +51,10 @@
 
   .footerAyudar {
     grid-area: footer;
-    background-color: $amarillo;
+    background-color: #ffd803;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 2rem;
-  }
+    padding: 5rem 0rem 5rem 2rem;
+}
