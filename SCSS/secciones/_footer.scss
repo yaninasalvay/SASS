@@ -1,60 +1,89 @@
 //INDEX
 
 .footer {
-    grid-area: footer;
-    background-color: $amarillo;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height:150px
-  }
+  grid-area: footer;
+  background-color: #ffd803;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  height: 150px;
+  .icons {
+      a {
+        padding: 0.5rem;
+      
+    }
+}
+}
 
 // SOBRE NOSOTROS
 
 .footerSobreNosotros {
-    grid-area: footer;
-    background-color: $amarillo;
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 3rem;
-    top: 1240px;
-    flex-direction: column;
-  }
-
-  // EN ADOPCION
-
-  .footerAdopcion {
-    background-color: $amarillo;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 2rem;
-    top: 24rem;
-  }
-
-  // DONACIONES
-
-  .footer {
-    grid-area: footer;
-    background-color: $amarillo;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 2rem;
-    height: 150px;
-  }
-
-  .footerAyudar {
-    grid-area: footer;
-    background-color: #ffd803;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 5rem 0rem 5rem 2rem;
+  grid-area: footer;
+  background-color: #ffd803;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  padding: 3rem;
+  top: 1240px;
+  .icons {
+      a {
+        padding: 0.5rem;
+      
+    }
 }
+
+  
+}
+
+// EN ADOPCION
+
+.footerAdopcion {
+  top: 24rem;
+  background-color: #ffd803;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  height: 150px;
+  .icons {
+      a {
+        padding: 0.5rem;
+      
+    }
+}
+}
+
+// DONACIONES
+
+.footer {
+  grid-area: footer;
+  background-color: #ffd803;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  height: 150px;
+
+}
+
+.footerAyudar {
+  grid-area: footer;
+  background-color: #ffd803;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  height: 150px;
+  .icons {
+      a {
+        padding: 0.5rem;
+      
+    }
+}}

@@ -1,8 +1,8 @@
 * {
-  margin: 0%;
+  margin: 0% ;
   padding: 0;
   box-sizing: border-box !important;
-  font-family: $tipografiaPrincipal !important;
+  font-family:'Mulish', sans-serif;
 }
 
 h2 {
@@ -166,7 +166,8 @@ a {
           background: $blanco;
           border: 3.38624px solid $amarillo;
           border-radius: 31.164px;
-          &hover {
+          margin: 0.5rem 0.5rem 0.5rem 0rem;
+          &:hover{
             background-color: $amarillo;
             transition: 0.3s;
           }
@@ -191,7 +192,8 @@ a {
           background: $blanco;
           border: 3.38624px solid $amarillo;
           border-radius: 31.164px;
-          &hover {
+          margin: 0.5rem 0.5rem 0.5rem 0rem;
+          &:hover {
             background-color: $amarillo;
             transition: 0.3s;
           }
@@ -222,7 +224,8 @@ a {
           background: $blanco;
           border: 3.38624px solid $amarillo;
           border-radius: 31.164px;
-          &hover {
+          margin: 0.5rem 0.5rem 0.5rem 0rem;
+          &:hover {
             background-color: $amarillo;
             transition: 0.3s;
           }
@@ -278,7 +281,7 @@ a {
         border-radius: 47.164px;
         margin-right: 56px;
         background: $blanco;
-        &hover {
+        &:hover {
           background-color: $amarillo;
           transition: 0.3s;
         }

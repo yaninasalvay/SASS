@@ -1,6 +1,10 @@
+@font-face {
+  font-family: 'Mulish', sans-serif;
+  src: url href= "https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap"; }
+
 body {
   background-color: #f8f8f8 !important;
-  font-family: "mulish";
+  font-family: "Mulish", sans-serif;
   color: black; }
 
 .header {
@@ -24,7 +28,7 @@ body {
   margin: 0%;
   padding: 0;
   box-sizing: border-box !important;
-  font-family: "mulish" !important; }
+  font-family: 'Mulish', sans-serif; }
 
 h2 {
   font-style: normal !important;
@@ -32,7 +36,7 @@ h2 {
   font-size: 54.18px !important;
   line-height: 68px !important;
   align-items: center !important;
-  font-family: "mulish"; }
+  font-family: "Mulish", sans-serif; }
 
 h3 {
   font-weight: 700 !important;
@@ -164,8 +168,9 @@ a {
           align-items: center;
           background: white;
           border: 3.38624px solid #ffd803;
-          border-radius: 31.164px; }
-          .gridContainerIndex .section2 .section2Text .botonesAdopcion .botonGatitohover {
+          border-radius: 31.164px;
+          margin: 0.5rem 0.5rem 0.5rem 0rem; }
+          .gridContainerIndex .section2 .section2Text .botonesAdopcion .botonGatito:hover {
             background-color: #ffd803;
             transition: 0.3s; }
           .gridContainerIndex .section2 .section2Text .botonesAdopcion .botonGatito .iconoGatito {
@@ -185,8 +190,9 @@ a {
           align-items: center;
           background: white;
           border: 3.38624px solid #ffd803;
-          border-radius: 31.164px; }
-          .gridContainerIndex .section2 .section2Text .botonesAdopcion .botonPerritohover {
+          border-radius: 31.164px;
+          margin: 0.5rem 0.5rem 0.5rem 0rem; }
+          .gridContainerIndex .section2 .section2Text .botonesAdopcion .botonPerrito:hover {
             background-color: #ffd803;
             transition: 0.3s; }
           .gridContainerIndex .section2 .section2Text .botonesAdopcion .botonPerrito .iconoPerrito {
@@ -211,8 +217,9 @@ a {
           align-items: center;
           background: white;
           border: 3.38624px solid #ffd803;
-          border-radius: 31.164px; }
-          .gridContainerIndex .section2 .section2Text .botonesAdopcion .verTodoshover {
+          border-radius: 31.164px;
+          margin: 0.5rem 0.5rem 0.5rem 0rem; }
+          .gridContainerIndex .section2 .section2Text .botonesAdopcion .verTodos:hover {
             background-color: #ffd803;
             transition: 0.3s; }
   .gridContainerIndex .section3 {
@@ -259,7 +266,7 @@ a {
         border-radius: 47.164px;
         margin-right: 56px;
         background: white; }
-        .gridContainerIndex .section3 .section3Text .botonDonarPatitahover {
+        .gridContainerIndex .section3 .section3Text .botonDonarPatita:hover {
           background-color: #ffd803;
           transition: 0.3s; }
   .gridContainerIndex .section4 {
@@ -304,6 +311,15 @@ a {
   .tituloSobreNosotros .tituloAmarillo {
     font-weight: 700;
     color: #ffd803; }
+
+img .blob {
+  position: absolute;
+  top: 15rem;
+  right: 0rem; }
+
+img .blob2 {
+  position: absolute;
+  top: 50rem; }
 
 .positionContenedorRight {
   display: flex;
@@ -420,9 +436,11 @@ a {
   align-items: center;
   flex-direction: row;
   position: relative;
-  top: 365px; }
+  top: 365px;
+  padding-left: 2rem;
+  padding-right: 2rem; }
   .cardsAdopcion .card {
-    margin-bottom: 30px; }
+    margin: 0rem 1.5rem 3rem 1.5rem; }
 
 .tituloAdopcion {
   display: flex;
@@ -483,9 +501,9 @@ a {
     height: 47px;
     padding: 8.46561px 25.3968px;
     border: 3.38624px solid #ffd803;
-    background: #f8f8f8;
+    background: white;
     border-radius: 25px; }
-    .positionAdoptar .botonAdoptarhover {
+    .positionAdoptar .botonAdoptar:hover {
       background: #ffd803;
       transition: 0.3s; }
 
@@ -508,6 +526,29 @@ a {
     margin: 20px;
     align-items: stretch;
     font-size: 18px; }
+
+.searchPosition {
+  position: absolute;
+  top: 54rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; }
+  .searchPosition .search .placeholder {
+    padding: 0.5rem;
+    border: 3px solid #ffd803 !important;
+    border-radius: 30px;
+    margin: 0.5rem !important;
+    background-color: white;
+    opacity: 100%;
+    cursor: default; }
+  .searchPosition .search .submit {
+    border: 3px solid #ffd803 !important;
+    border-radius: 30px;
+    margin: 0.5rem !important;
+    background-color: #ffd803;
+    opacity: 100%;
+    padding: 0.5rem; }
 
 .gridContainerAyudar {
   display: grid;
@@ -539,7 +580,7 @@ a {
       width: 594px;
       padding: 40px;
       text-align: center;
-      justify-content: space-around; }
+      justify-content: space-evenly; }
       .gridContainerAyudar .ayudar .textFormaParte .tituloAmarillo {
         font-weight: 700;
         color: #ffd803; }
@@ -581,11 +622,12 @@ a {
       text-align: center;
       grid-area: text;
       display: flex;
-      height: 550px;
+      height: 470px;
       flex-flow: column;
       align-items: center;
       justify-content: space-evenly;
-      padding: 30px; }
+      padding: 30px;
+      padding-top: 3rem; }
       .gridContainerContacto .contacto .textContacto .tituloAmarillo {
         font-weight: 700;
         color: #ffd803; }
@@ -642,7 +684,7 @@ a {
       background: white;
       border: 3px solid #ffd803;
       border-radius: 30px; }
-      .gridContainerDonaciones .donation p .botonDonacionhover {
+      .gridContainerDonaciones .donation p .botonDonacion:hover {
         background-color: #ffd803;
         transition: 0.3s; }
     .gridContainerDonaciones .donation p .botonContacto {
@@ -658,7 +700,7 @@ a {
       border: 3px solid #ffd803;
       border-radius: 30px;
       margin: 20px; }
-      .gridContainerDonaciones .donation p .botonContactohover {
+      .gridContainerDonaciones .donation p .botonContacto:hover {
         background-color: #ffd803;
         transition: 0.3s; }
   .gridContainerDonaciones .information {
@@ -681,28 +723,36 @@ a {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
+  padding: 2rem;
   height: 150px; }
+  .footer .icons a {
+    padding: 0.5rem; }
 
 .footerSobreNosotros {
   grid-area: footer;
   background-color: #ffd803;
   position: relative;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
   padding: 3rem;
-  top: 1240px;
-  flex-direction: column; }
+  top: 1240px; }
+  .footerSobreNosotros .icons a {
+    padding: 0.5rem; }
 
 .footerAdopcion {
+  top: 24rem;
   background-color: #ffd803;
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 2rem;
-  top: 24rem; }
+  height: 150px; }
+  .footerAdopcion .icons a {
+    padding: 0.5rem; }
 
 .footer {
   grid-area: footer;
@@ -710,7 +760,7 @@ a {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 2rem;
   height: 150px; }
 
@@ -720,8 +770,11 @@ a {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  padding: 5rem 0rem 5rem 2rem; }
+  justify-content: space-between;
+  padding: 2rem;
+  height: 150px; }
+  .footerAyudar .icons a {
+    padding: 0.5rem; }
 
 @media (max-width: 1000px) {
   .gridContainerDonaciones {
@@ -766,9 +819,42 @@ a {
       background-color: #ffd803;
       position: relative;
       display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      padding: 2rem; }
+      height: fit-content;
+      align-items: stretch;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: row; }
+  .cardsAdopcion {
+    padding: 0rem; }
+  .footerAdopcion {
+    background-color: #ffd803;
+    position: relative;
+    display: flex;
+    height: fit-content;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; }
+  .footerSobreNosotros {
+    background-color: #ffd803;
+    position: relative;
+    display: flex;
+    height: fit-content;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; }
+  .gridContainerContacto .footer {
+    grid-area: footer;
+    background-color: #ffd803;
+    position: relative;
+    display: flex;
+    height: fit-content;
+    top: 4rem;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; }
   .gridContainerAyudar {
     display: grid;
     grid-template-columns: 100vw;
@@ -786,14 +872,16 @@ a {
       justify-items: center;
       align-items: center; }
     .gridContainerAyudar .footerAyudar {
+      top: 221px;
       grid-area: footer;
       background-color: #ffd803;
       position: relative;
       display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      padding: 5rem 0rem 4rem 0rem;
-      top: 86px; }
+      height: fit-content;
+      align-items: stretch;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: row; }
   .gridContainerContacto {
     display: grid;
     grid-template-columns: 100vw;
@@ -823,7 +911,7 @@ a {
     padding-left: 2rem; } }
 
 @media (max-width: 768px) {
-  .donation {
+  .gridContainerDonaciones .donation {
     display: grid;
     grid-template-columns: 100vw;
     grid-template-rows: 1fr;
@@ -831,6 +919,16 @@ a {
     grid-area: donation;
     align-items: center;
     justify-items: center; }
+    .gridContainerDonaciones .donation .textDonaciones {
+      text-align: center;
+      grid-area: text;
+      display: flex;
+      height: 705px;
+      width: 529px;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 34px; }
   .gridContainerIndex {
     display: grid;
     grid-template-columns: 100vw;
@@ -839,7 +937,8 @@ a {
     .gridContainerIndex .section1 .tituloNegro {
       color: white;
       left: 2rem;
-      right: 2rem; }
+      right: 2rem;
+      top: 23rem; }
     .gridContainerIndex .section2 {
       display: grid;
       grid-template-columns: 1fr;
@@ -885,13 +984,14 @@ a {
         display: flex;
         position: relative;
         flex-flow: column;
-        top: 221px;
+        top: 165px;
         align-items: flex-end;
         justify-content: center; }
         .gridContainerIndex .section3 .section3Text .tercerHeader {
           color: white;
           margin-right: 2rem;
-          margin-left: 2rem; }
+          margin-left: 2rem;
+          margin: 1rem, 2rem,0rem,2rem; }
         .gridContainerIndex .section3 .section3Text .botonDonarPatita {
           margin-left: 2rem;
           margin-right: 2rem; }
@@ -920,16 +1020,18 @@ a {
         .gridContainerIndex .section4 .section4Text .cuartoHeader {
           color: white;
           left: -2rem;
-          right: 2rem; }
+          right: 2rem;
+          margin-bottom: 4rem; }
     .gridContainerIndex .footer {
       grid-area: footer;
       background-color: #ffd803;
       position: relative;
       display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      padding-top: 5rem;
-      padding-bottom: 4rem; } }
+      height: fit-content;
+      align-items: stretch;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: row; } }
 
 @media (max-width: 700px) {
   .gridContainerDonaciones {
@@ -961,7 +1063,7 @@ a {
       flex-flow: column;
       align-items: center;
       justify-content: space-between;
-      padding: 62px; }
+      padding: 34px; }
       .gridContainerDonaciones .donation .textDonaciones .parrafoDonaciones {
         font-size: 20px; }
       .gridContainerDonaciones .donation .textDonaciones .parrafoRecibimos {
@@ -983,7 +1085,7 @@ a {
     display: flex;
     grid-area: text;
     flex-flow: column;
-    height: 423px;
+    height: 544px;
     flex-direction: column;
     align-items: center;
     width: auto;
@@ -1007,7 +1109,7 @@ a {
     flex-flow: column;
     align-items: center;
     justify-content: space-between;
-    padding: 62px; }
+    padding: 32px; }
   .gridContainerDonaciones .donation .information {
     grid-area: information;
     display: flex;
@@ -1025,7 +1127,7 @@ a {
     text-align: center;
     grid-area: text;
     display: flex;
-    height: 358px;
+    height: 484px;
     flex-flow: column;
     align-items: center;
     justify-content: space-evenly;
@@ -1038,4 +1140,25 @@ a {
     justify-content: space-around;
     align-items: stretch;
     padding: 0rem 0rem 2rem 0rem;
-    width: auto; } }
+    width: auto; }
+  .positionContenedorRight {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 4rem; }
+    .positionContenedorRight .contenedor {
+      font-size: 16px; }
+    .positionContenedorRight .contenedorTres {
+      font-size: 16px; }
+    .positionContenedorRight .contenedorCinco {
+      font-size: 16px; }
+  .positionContenedorLeft {
+    margin-right: 2rem;
+    margin-left: 2rem; }
+    .positionContenedorLeft .contenedorDos {
+      font-size: 16px; }
+    .positionContenedorLeft .contenedorCuatro {
+      font-size: 16px; }
+    .positionContenedorLeft .contenedorSeis {
+      font-size: 16px; }
+  .searchPosition {
+    margin-left: 0.5rem; } }

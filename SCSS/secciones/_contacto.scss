@@ -26,11 +26,12 @@
       text-align: center;
       grid-area: text;
       display: flex;
-      height: 550px;
+      height: 470px;
       flex-flow: column;
       align-items: center;
       justify-content: space-evenly;
       padding: 30px;
+      padding-top: 3rem;
       .tituloAmarillo {
         font-weight: 700;
         color: $amarillo;

@@ -44,17 +44,59 @@
     }
     .footer {
       grid-area: footer;
-      background-color: $amarillo;
+      background-color: #ffd803;
       position: relative;
       display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      padding: 2rem;
+      height: fit-content;
+      align-items: stretch;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+
     }
   }
 
+.cardsAdopcion {
+  padding:0rem;
+}
 
 
+  .footerAdopcion{
+    background-color: #ffd803;
+    position: relative;
+    display: flex;
+    height: fit-content;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .footerSobreNosotros {
+   background-color: #ffd803;
+    position: relative;
+    display: flex;
+    height: fit-content;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+.gridContainerContacto {
+  .footer{
+    grid-area: footer;
+    background-color: #ffd803;
+    position: relative;
+    display: flex;
+    height: fit-content;
+    top: 4rem;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
   .gridContainerAyudar {
     display: grid;
     grid-template-columns: 100vw;
@@ -76,16 +118,19 @@
       align-items: center;
     }
     .footerAyudar {
+      top: 221px;
       grid-area: footer;
       background-color: #ffd803;
       position: relative;
       display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      padding: 5rem 0rem 4rem 0rem;
-      top: 86px;
-    }
+      height: fit-content;
+      align-items: stretch;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: row;
   }
+    }
+
   .gridContainerContacto {
     display: grid;
     grid-template-columns: 100vw;
@@ -123,6 +168,7 @@
 }
 
 @media (max-width: 768px) {
+  .gridContainerDonaciones{
   .donation {
     display: grid;
     grid-template-columns: 100vw;
@@ -131,7 +177,19 @@
     grid-area: donation;
     align-items: center;
     justify-items: center;
+    .textDonaciones {
+      text-align: center;
+      grid-area: text;
+      display: flex;
+      height: 705px;
+      width: 529px;
+      flex-flow: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 34px;
+    }
   }
+}
   .gridContainerIndex {
     display: grid;
     grid-template-columns: 100vw;
@@ -148,6 +206,7 @@
         color: $blanco;
         left: 2rem;
         right: 2rem;
+        top: 23rem;
       }
     }
     .section2 {
@@ -201,13 +260,14 @@
         display: flex;
         position: relative;
         flex-flow: column;
-        top: 221px;
+        top: 165px;
         align-items: flex-end;
         justify-content: center;
         .tercerHeader {
           color: $blanco;
           margin-right: 2rem;
           margin-left: 2rem;
+          margin: 1rem, 2rem,0rem,2rem;
         }
         .botonDonarPatita {
           margin-left: 2rem;
@@ -242,21 +302,24 @@
           color: $blanco;
           left: -2rem;
           right: 2rem;
+          margin-bottom: 4rem;
         }
       }
     }
     .footer {
       grid-area: footer;
-      background-color: $amarillo;
+      background-color: #ffd803;
       position: relative;
       display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      padding-top: 5rem;
-      padding-bottom: 4rem;
+      height: fit-content;
+      align-items: stretch;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
     }
   }
-}
+
 
 @media (max-width: 700px) {
   .gridContainerDonaciones {
@@ -294,7 +357,7 @@
         flex-flow: column;
         align-items: center;
         justify-content: space-between;
-        padding: 62px;
+        padding: 34px;
         .parrafoDonaciones {
           font-size: 20px;
         }
@@ -324,7 +387,7 @@
         display: flex;
         grid-area: text;
         flex-flow: column;
-        height: 423px;
+        height: 544px;
         flex-direction: column;
         align-items: center;
         width: auto;
@@ -354,7 +417,7 @@
         flex-flow: column;
         align-items: center;
         justify-content: space-between;
-        padding: 62px;
+        padding: 32px;
       }
       .information {
         grid-area: information;
@@ -378,7 +441,7 @@
         text-align: center;
         grid-area: text;
         display: flex;
-        height: 358px;
+        height: 484px;
         flex-flow: column;
         align-items: center;
         justify-content: space-evenly;
@@ -398,4 +461,38 @@
       }
     }
   }
+  .positionContenedorRight {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    .contenedor {
+      font-size: 16px;
+    }
+    .contenedorTres {
+      font-size: 16px;
+    }
+    .contenedorCinco {
+      font-size: 16px;
+    }
+  }
+
+  .positionContenedorLeft {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    .contenedorDos {
+      font-size: 16px;
+    }
+    .contenedorCuatro {
+      font-size: 16px;
+    }
+    .contenedorSeis {
+      font-size: 16px;
+    }
+  }
+
+  .searchPosition {
+   margin-left: 0.5rem;
+  }
+
+
 }

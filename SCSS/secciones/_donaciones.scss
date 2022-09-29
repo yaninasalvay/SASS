@@ -44,7 +44,7 @@
       background: $blanco;
       border: 3px solid $amarillo;
       border-radius: 30px;
-      &hover {
+      &:hover {
         background-color: $amarillo;
         transition: 0.3s;
       }
@@ -62,7 +62,7 @@
       border: 3px solid $amarillo;
       border-radius: 30px;
       margin: 20px;
-      &hover {
+      &:hover {
         background-color: $amarillo;
         transition: 0.3s;
       }

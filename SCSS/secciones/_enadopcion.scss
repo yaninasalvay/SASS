@@ -6,8 +6,12 @@
   flex-direction: row;
   position: relative;
   top: 365px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
   .card {
-    margin-bottom: 30px;
+    margin: 0rem 1.5rem 3rem 1.5rem;
+
   }
 }
 
@@ -76,9 +80,9 @@
     height: 47px;
     padding: 8.46561px 25.3968px;
     border: 3.38624px solid $amarillo;
-    background: $gris;
+    background: $blanco;
     border-radius: 25px;
-    &hover {
+    &:hover {
       background: $amarillo;
       transition: 0.3s;
     }
@@ -105,3 +109,31 @@
     font-size: 18px;
   }
 }
+.searchPosition{
+  position: absolute;
+    top: 54rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  .search {
+    .placeholder {
+      padding: 0.5rem;
+      border: 3px solid $amarillo !important;
+      border-radius: 30px; 
+      margin: 0.5rem !important;
+      background-color: $blanco;
+      opacity: 100%;
+      cursor: default;
+    }
+    .submit {
+      border: 3px solid $amarillo !important;
+      border-radius: 30px; 
+      margin: 0.5rem !important;
+      background-color: $amarillo;
+      opacity: 100%;
+      padding: 0.5rem;
+    }
+}
+ 
+ }
