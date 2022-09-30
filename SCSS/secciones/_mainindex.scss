@@ -30,6 +30,12 @@ a {
 
 input {
   color: $negro !important;
+  background-color: $blanco;
+}
+
+select {
+  color: #000000;
+  background-color: $blanco;
 }
 
 .gridContainerIndex {

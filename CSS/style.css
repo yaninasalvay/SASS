@@ -51,7 +51,12 @@ a {
   text-decoration: none !important; }
 
 input {
-  color: black !important; }
+  color: black !important;
+  background-color: white; }
+
+select {
+  color: #000000;
+  background-color: white; }
 
 .gridContainerIndex {
   display: grid;
