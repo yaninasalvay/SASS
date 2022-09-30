@@ -57,7 +57,7 @@ input {
 select {
   color: #000000;
   background-color: white;
-  padding: 0.6rem 0.5rem; }
+  padding: 0.7rem 0.5rem !important; }
 
 .gridContainerIndex {
   display: grid;
