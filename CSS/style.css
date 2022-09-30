@@ -50,6 +50,9 @@ a {
   color: black !important;
   text-decoration: none !important; }
 
+input {
+  color: black !important; }
+
 .gridContainerIndex {
   display: grid;
   grid-template-columns: 1fr;

@@ -28,6 +28,10 @@ a {
   text-decoration: none !important;
 }
 
+input {
+  color: $negro !important;
+}
+
 .gridContainerIndex {
   display: grid;
   grid-template-columns: 1fr;
